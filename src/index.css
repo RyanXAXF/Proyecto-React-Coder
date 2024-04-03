@@ -13,6 +13,18 @@ a{
 li{
   list-style: none;
 }
-
-
+.itemListContainer{
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  gap: 70px;
+  margin: 20px;
+}
+.title{
+  font-size: 35px;
+  color: white;
+}
+.cardTitle{
+  color: white;
+}
 

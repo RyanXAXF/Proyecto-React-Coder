@@ -1,33 +1,28 @@
 import { useEffect, useState } from "react"
 import data from "../data/products.json"
-import { ItemList } from "./ItemList"
 import { useParams } from "react-router-dom"
 
-export const ItemListContainer = () => {
-    const [products, setProducts] = useState([])
+export const ItemDetailContainer = () => {
+    const [product, setProduct] = useState(null)
 
     const {id} = useParams()
-    console.log(id)
-
     useEffect(() =>{
         const get = new Promise((resolve, reject)=> {
             setTimeout(() => resolve(data), 2000)
         })
         get.then((data)=>{
-            if (!id) {
-                setProducts(data)
-            } else {
-                const filtered = data.filter(p => p.category === id)
-                setProducts(filtered)
-            }
-            
+            const filter = data.find(p => p.id === Number(id))
+            setProduct(filter)
         })
 
     }, [id])
+
+
+    if (!product) return <div>Loading</div>
     return(
         <div className="itemListContainer">
-            <ItemList products={products} />
-            
+            <h1>{product.name}</h1>
+            <img src={product.img} alt="s" />
         </div>
     )
         
