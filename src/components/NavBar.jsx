@@ -12,22 +12,11 @@ export const NavBar = () => {
             <ul className="navbar">
                 <li><NavLink to="/category/guitar" as={NavLink}>Guitarras</NavLink></li>
                 <li><NavLink to="/category/amp" as={NavLink}>Amplificadores</NavLink></li>
-                <li><a className="link" href="">Contacto</a></li>
-                <li>
-                    <select className="select" name="productos" id="productos">
-
-                        <option className="selectProductos" value="">Todos</option>
-                        <option value="">Guitarras</option>
-                        <option value=""><a href="/category/amplificadores">Amplificadores</a></option>
-                    </select>
-                </li>
+                <li><NavLink to="/category/pedal" as={NavLink}>Pedales</NavLink></li>
                 <li><CardWidget /></li>
                 <li>
                     
-                    <form action="">
-                        <input className="inp inp--src" type="text" placeholder="Search"/>
-                        <button className="btn btn--src" type="submit">Search</button>
-                    </form>
+                    
                 </li>
             </ul>
         </nav>

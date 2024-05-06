@@ -4,21 +4,27 @@
         "id" : 1,
         "category" : "guitar",
         "detail" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde nobis. Id eos laudantium cumque earum consequatur natus adipisci modi!",
-        "img" : "https://imgs.search.brave.com/_RMIQi8OfMPEnCMh1PZwdAE-XcLDkO9EH61fIovh7i4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5tdXNpY2lhbnNm/cmllbmQuY29tL2lz/L2ltYWdlL01NR1M3/LzE5NTktTGVzLVBh/dWwtU3RhbmRhcmQt/UmVpc3N1ZS1WT1Mt/RWxlY3RyaWMtR3Vp/dGFyLURpcnR5LUxl/bW9uL0wyMDUzOTAw/MDAwNzAwMC0wMC00/MDB4NDAwLmpwZw"
+        "img" : "https://imgs.search.brave.com/_RMIQi8OfMPEnCMh1PZwdAE-XcLDkO9EH61fIovh7i4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5tdXNpY2lhbnNm/cmllbmQuY29tL2lz/L2ltYWdlL01NR1M3/LzE5NTktTGVzLVBh/dWwtU3RhbmRhcmQt/UmVpc3N1ZS1WT1Mt/RWxlY3RyaWMtR3Vp/dGFyLURpcnR5LUxl/bW9uL0wyMDUzOTAw/MDAwNzAwMC0wMC00/MDB4NDAwLmpwZw",
+        "price" : "$3500",
+        "stock" : 6
     },
     {
         "name" : "Fender Stratocaster",
         "id" : 2,
         "category" : "guitar",
         "detail" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde nobis. Id eos laudantium cumque earum consequatur natus adipisci modi!",
-        "img" : "https://imgs.search.brave.com/YhAJnFI1fwI94_AsHtDiFYgrjt2zjd-ya2bLaqsNeAg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE3LzZh/L2YyLzE3NmFmMjU2/NmUzYzFiNmI4MTlk/Yzc1ODY4MDQ2NDQy/LmpwZw"
+        "img" : "https://imgs.search.brave.com/YhAJnFI1fwI94_AsHtDiFYgrjt2zjd-ya2bLaqsNeAg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE3LzZh/L2YyLzE3NmFmMjU2/NmUzYzFiNmI4MTlk/Yzc1ODY4MDQ2NDQy/LmpwZw",
+        "price" : "$2600",
+        "stock" : 10
     },
     {
         "name" : "Cabezal Marshall JCM 800",
         "id" : 3,
         "category" : "amp",
         "detail" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde nobis. Id eos laudantium cumque earum consequatur natus adipisci modi!",
-        "img" : "https://imgs.search.brave.com/BP_TEozHT0NOV9m97-DwQZU2S6riAPUpZlkUJH3eWKw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/NDAyMzQtTUxBNTQ3/Nzc4MDY5MzFfMDMy/MDIzLU8ud2VicA"
+        "img" : "https://imgs.search.brave.com/BP_TEozHT0NOV9m97-DwQZU2S6riAPUpZlkUJH3eWKw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/NDAyMzQtTUxBNTQ3/Nzc4MDY5MzFfMDMy/MDIzLU8ud2VicA",
+        "price" : "$2800",
+        "stock" : 15
     }
 
 ]
